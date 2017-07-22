@@ -2,6 +2,10 @@ const expect = require('expect');
 const request = require('supertest');
 const {ObjectID} = require('mongodb');
 
+
+// Heroku create
+// heroku addons:create mongolab:sandbox
+
 const {app} = require('./../server');
 const {Todo}= require('./../models/todo');
 
