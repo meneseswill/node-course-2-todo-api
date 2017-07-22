@@ -5,6 +5,8 @@ const {ObjectID} = require('mongodb');
 
 // Heroku create
 // heroku addons:create mongolab:sandbox
+// git push heroku master
+// heroku logs
 
 const {app} = require('./../server');
 const {Todo}= require('./../models/todo');
